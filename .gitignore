@@ -1,0 +1,34 @@
+# Compiled python modules and cython related stuff
+*.pyc
+*.c
+*.so
+
+# Ignore model files
+*.hd5f
+*.h5
+
+# Byte-compiled
+_pycache__/
+.cache/
+
+# Python egg metadata, regenerated from source files by setuptools.
+/*.egg-info
+.eggs/
+
+# PyPI distribution artifacts.
+build/
+dist/
+
+# Tests
+.pytest_cache/
+
+# Other
+*.DS_Store
+
+# PyCharm
+.idea
+
+# Troubleshooting Files & Folders
+/archive/*
+*.ipynb_checkpoints
+*.ipynb
